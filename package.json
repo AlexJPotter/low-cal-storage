@@ -1,0 +1,40 @@
+{
+  "name": "low-cal-storage",
+  "version": "1.0.2",
+  "description": "A lightweight wrapper around window.localStorage that slims down your data for storage and fattens it up again on retrieval",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js && eslint \"src/**\"",
+    "test:watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js",
+    "lint": "eslint \"src/**\" \"test/**\"",
+    "lintfix": "eslint \"src/**\" \"test/**\" --fix"
+  },
+  "keywords": [
+    "localstorage",
+    "optimize",
+    "optimise",
+    "local",
+    "storage"
+  ],
+  "author": "Alex J Potter",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.1.1",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "chai": "4.1.0",
+    "eslint": "4.3.0",
+    "eslint-loader": "1.9.0",
+    "mocha": "3.5.0",
+    "mock-local-storage": "1.0.4",
+    "webpack": "3.4.1",
+    "yargs": "8.0.2"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.0"
+  }
+}
