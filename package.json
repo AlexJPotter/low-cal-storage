@@ -1,6 +1,6 @@
 {
   "name": "low-cal-storage",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight wrapper around window.localStorage that slims down your data for storage and fattens it up again on retrieval",
   "main": "index.js",
   "bugs": "https://github.com/AlexJPotter/low-cal-storage/issues",
